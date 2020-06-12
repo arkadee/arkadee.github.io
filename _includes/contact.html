@@ -73,19 +73,19 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
   <div id="container">
  
   <form action="https://formspree.io/sunny@doeity.com" method="post" id="contact_form">
-    <div class="name">
+    <div>
       <label for="name"></label>
       <input type="text" placeholder="My name is" name="name" id="name_input" required>
     </div>
-    <div class="email">
+    <div>
       <label for="email"></label>
       <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
     </div>
-    <div class="telephone">
+    <div>
       <label for="name"></label>
-      <input type="text" placeholder="My number is" name="telephone" id="telephone_input">
+      <input type="text" placeholder="My phone number is" name="telephone" id="telephone_input">
     </div>
-    <div class="subject">
+    <div>
       <label for="subject"></label>
       <select placeholder="Subject line" name="subject" id="subject_input" required>
         <option disabled hidden selected>Subject line</option>
@@ -94,11 +94,11 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
         <option>I'd like to make a proposal</option>
       </select>
     </div>
-    <div class="message">
+    <div>
       <label for="message"></label>
       <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
     </div>
-    <div class="submit">
+    <div>
       <input type="submit" value="Send Message" id="form_button" />
     </div>
   </form><!-- // End form -->
